@@ -1,0 +1,21 @@
+/*font-family: 'Nuosu SIL', serif;*/
+
+body {
+  background-color: rgb(246, 244, 241);
+}
+h1,
+h2 {
+  font-family: "Nuosu SIL", serif;
+  text-align: center;
+}
+h1 {
+  font-size: 35px;
+}
+p {
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
+.logo {
+  padding: 100px;
+}
