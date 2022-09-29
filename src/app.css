@@ -17,6 +17,7 @@ p {
   font-size: large;
 }
 .logo {
-  padding: 100px;
+  padding-bottom: 20px;
+  padding-top: 20px;
   height: 500px;
 }
