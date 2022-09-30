@@ -1,23 +1,27 @@
-/*font-family: 'Nuosu SIL', serif;*/
-
+:root {
+  --primary-font: "Nuosu SIL", serif;
+  --secondary-font: "Open Sans", sans-serif;
+  --primary-color: rgb(246, 244, 241);
+}
 body {
-  background-color: rgb(246, 244, 241);
+  background-color: var(--primary-color);
 }
 h1,
 h2 {
-  font-family: "Nuosu SIL", serif;
-  text-align: center;
+  font-family: var(--primary-font);
 }
 h1 {
   font-size: 35px;
-}
-p {
   text-align: center;
   font-weight: bold;
-  font-size: large;
 }
 .logo {
   padding-bottom: 20px;
   padding-top: 20px;
   height: 500px;
+}
+.services {
+  font-weight: 500;
+  font-style: italic;
+  font-family: var(--secondary-font);
 }
