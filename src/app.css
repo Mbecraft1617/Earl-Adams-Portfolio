@@ -110,6 +110,15 @@ h1 {
   font-weight: 400;
   font-family: var(--secondary-font);
 }
+.contact-links {
+  color: var(--secondary-color);
+}
+.contact-links:hover {
+  color: var(--secondary-color);
+}
+.phone-number {
+  color: var(--secondary-color);
+}
 @media screen and (max-width: 600px) {
   img {
     width: 90%;
