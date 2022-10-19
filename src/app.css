@@ -85,6 +85,15 @@ h1 {
   font-family: var(--secondary-font);
   font-size: 20px;
 }
+.homepage-btn {
+  background: var(--secondary-color);
+  box-shadow: var(--primary-box-shadow);
+  color: white;
+}
+.homepage-btn:hover {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
 @media screen and (max-width: 600px) {
   img {
     width: 90%;
