@@ -94,6 +94,15 @@ h1 {
   color: var(--secondary-color);
   background-color: var(--primary-color);
 }
+.ref-link {
+  background: var(--secondary-color);
+  box-shadow: var(--primary-box-shadow);
+  color: white;
+}
+.ref-link:hover {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
 .references {
   text-align: left;
 }
