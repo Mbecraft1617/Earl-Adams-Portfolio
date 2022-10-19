@@ -36,6 +36,15 @@ h1 {
   text-decoration: none;
   text-transform: capitalize;
 }
+.about-link {
+  background: var(--secondary-color);
+  box-shadow: var(--primary-box-shadow);
+  color: white;
+}
+.about-link:hover {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
 .contact-link {
   background: var(--secondary-color);
   box-shadow: var(--primary-box-shadow);
