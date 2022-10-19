@@ -63,6 +63,19 @@ h1 {
   margin-left: 40px;
   margin-right: 40px;
 }
+.about-section h1 {
+  text-align: left;
+  font-size: 50px;
+}
+.about-section h2 {
+  text-align: left;
+  font-size: 30px;
+  font-weight: 800;
+}
+.about-section p {
+  font-family: var(--secondary-font);
+  font-size: 20px;
+}
 @media screen and (max-width: 600px) {
   img {
     width: 90%;
