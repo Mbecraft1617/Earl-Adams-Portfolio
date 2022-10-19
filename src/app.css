@@ -72,16 +72,16 @@ h1 {
   margin-left: 40px;
   margin-right: 40px;
 }
-.about-section h1 {
+.content-section h1 {
   text-align: left;
   font-size: 50px;
 }
-.about-section h2 {
+.content-section h2 {
   text-align: left;
   font-size: 30px;
   font-weight: 800;
 }
-.about-section p {
+.content {
   font-family: var(--secondary-font);
   font-size: 20px;
 }
@@ -93,6 +93,13 @@ h1 {
 .homepage-btn:hover {
   color: var(--secondary-color);
   background-color: var(--primary-color);
+}
+.references {
+  text-align: left;
+}
+.content h2 {
+  font-weight: 400;
+  font-family: var(--secondary-font);
 }
 @media screen and (max-width: 600px) {
   img {
