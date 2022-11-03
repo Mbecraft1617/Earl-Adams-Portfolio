@@ -165,6 +165,15 @@ footer .social-links a:hover {
   color: var(--primary-color);
   background-color: var(--background-color);
 }
+.work-link {
+  background: var(--primary-color);
+  box-shadow: var(--primary-box-shadow);
+  color: white;
+}
+.work-link:hover {
+  color: var(--primary-color);
+  background-color: var(--background-color);
+}
 .ref-link {
   background: var(--primary-color);
   box-shadow: var(--primary-box-shadow);
