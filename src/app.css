@@ -77,6 +77,18 @@ footer .social-links a:hover {
   color: white;
   background: var(--primary-color);
 }
+footer .location-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .location-box p {
+  font-style: italic;
+  margin: 0;
+}
+footer .location-box a:hover {
+  color: var(--primary-color);
+}
 .hero {
   background: var(--secondary-color);
   text-align: center;
